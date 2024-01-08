@@ -1,3 +1,10 @@
+html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     background-color:  #c9d6ff;
     background: linear-gradient(to right, #e2e2e2, #c9d6ff);
@@ -26,7 +33,7 @@ nav{
 .logo{
     padding-left: 10px;
     width: 100px;
-    height: 80px;
+    height: 70px;
 }
 nav ul li{
     display: inline-flex;
@@ -56,15 +63,47 @@ nav ul li a:hover::after{
 
 }
 .nitk{
-    height: 25%;
-    width: 25%;
+    margin: 50px auto;
+    height: 15%;
+    width: 15%;
     display: flex;
 }
-main{
-    padding-left: 600px ;
-    padding-top: 100px;
+.button1{
+    display: flex;
     align-items: center;
+    justify-content: center;
+    margin: 50px 50px;
+    padding: 100px auto;
 }
+.button1 ul li{
+    display: inline-flex;
+    list-style: none;
+    margin: 10px 20px;
+}
+.button{
+    background-color:#512da8;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px 45px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    cursor: pointer;
+
+}
+footer{
+    display: flex;
+    position: relative;
+    bottom: 0;
+    margin-top:  auto;
+    background-color:#6770D2;
+    box-sizing: border-box;
+    
+}
+
 
 
     
